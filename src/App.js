@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Primera CLI en react by <code>src/App.js</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/nikoroude/react-ecommerce-coderhouse"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          By Nicolas Roude
         </a>
       </header>
     </div>
