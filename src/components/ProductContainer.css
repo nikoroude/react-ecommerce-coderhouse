@@ -1,0 +1,43 @@
+@import url("@fontsource/roboto");
+
+* {
+    font-family: 'Roboto';
+}
+
+.productContainer {
+    display: block;
+    max-width: 300px;
+    max-height: 500px;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #0000000f;
+    background-color: #b9b9b90f;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.productContainer:hover {
+    animation: productShadow 0.5s forwards;
+}
+
+@keyframes productShadow {
+    0% {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    50% {
+        box-shadow: rgba(100, 100, 111, 0.5) 0px 9px 31px 0px;
+    }
+
+    100% {
+        box-shadow: rgba(100, 100, 111, 0.8) 0px 11px 33px 0px;
+    }
+}
+
+
+.descriptionProduct {
+    margin: 2rem 2rem 2rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}

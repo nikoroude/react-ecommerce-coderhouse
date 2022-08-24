@@ -1,0 +1,21 @@
+@import url("@fontsource/roboto");
+
+.containerList {
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+/*     
+    max-width: 300px;
+    max-height: 400px; */
+    /* text-align: center; */
+    margin-inline: 8rem;
+}
+
+.containerList__title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.46);
+}

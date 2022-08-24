@@ -16,6 +16,7 @@ header {
 .title__container {
     display: flex;
     align-items: center;
+    padding-left: 1rem;
 }
 
 .navbar__title {
@@ -44,6 +45,7 @@ header {
 
 .navbar__icon {
     margin-left: 3rem;
+    display: flex;
 }
 
 .icon {

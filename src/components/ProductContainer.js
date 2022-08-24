@@ -1,4 +1,4 @@
-
+import './ProductContainer.css'
 
 
 const ProductContainer = (props) => {
@@ -10,6 +10,7 @@ const ProductContainer = (props) => {
                 <img src={props.image} alt= {props.alt} />
             </div>
             <div className="descriptionProduct">
+                <h2>${props.price}</h2>
                 <span>{props.description}</span>
             </div>
 

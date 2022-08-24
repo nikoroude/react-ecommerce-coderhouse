@@ -7,9 +7,9 @@ function App() {
   return (
     
     <div>
-      <NavBar />
+      <NavBar title="COMPUMUNDO HIPER-MEGA-RED" />
   
-      <ListProducts />
+      <ListProducts title="OFERTAS IMPERDIBLES" />
     </div>
 
   );
