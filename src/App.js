@@ -1,6 +1,7 @@
 import './App.css'
 import NavBar from './components/NavBar.js'
-import ListProducts from './components/ListProduts';
+import ListProducts from './components/ListProducts';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
       <NavBar title="COMPUMUNDO HIPER-MEGA-RED" />
   
       <ListProducts title="OFERTAS IMPERDIBLES" />
+
+      <Footer />
     </div>
 
   );
