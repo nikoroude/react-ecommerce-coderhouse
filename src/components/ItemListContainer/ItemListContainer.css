@@ -4,10 +4,10 @@
     font-family: 'Roboto';
 }
 
-.productContainer {
+.ItemContainer {
     display: block;
-    max-width: 300px;
-    max-height: 500px;
+    max-width: 300px !important;
+    max-height: 500px !important;
     text-align: center;
     margin: 2rem;
     padding: 1rem;
@@ -17,7 +17,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.productContainer:hover {
+.ItemContainer:hover {
     animation: productShadow 0.5s forwards;
 }
 
@@ -35,9 +35,14 @@
     }
 }
 
-
 .descriptionProduct {
     margin: 2rem 2rem 2rem 1rem;
     font-weight: bold;
     font-size: 1rem;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
