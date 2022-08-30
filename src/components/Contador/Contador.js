@@ -2,15 +2,18 @@ import './Contador.css'
 import { useState } from "react"
 
 
-const Contador = () => {
+const Contador = (props) => {
 
     const [counter, setCounter] = useState(1)
-
-    const sumar = () => {
-        setCounter(counter + 1)
+    let maxStock = (props.stock)
+    
+    const handleSumar = () => {
+        if (counter < maxStock ) {
+            setCounter(counter + 1)
+            }
     }
 
-    const restar = () => {
+    const handleRestar = () => {
         if (counter > 1) {
         setCounter(counter - 1)
         }
@@ -19,10 +22,10 @@ const Contador = () => {
     return (
 
         <div className="Contador__container">
-            <button onClick={restar} className="button">-</button>
-                <span className='contador'>{counter}</span>
-            <button onClick={sumar} className="button">+</button>
 
+            <button onClick={handleRestar} className="button">-</button>
+                <span className='contador'>{counter}</span>
+            <button onClick={handleSumar} className="button">+</button>
 
         </div>
 

@@ -17,7 +17,7 @@ const ItemListContainer = (props) => {
             </div>
 
             <div className='btn__container'>
-                <Contador />
+                <Contador stock={props.stock}/>
                 <AddToCart />
             </div>
 
