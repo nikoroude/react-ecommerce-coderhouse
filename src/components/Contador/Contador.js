@@ -6,16 +6,16 @@ const Contador = (props) => {
 
     const [counter, setCounter] = useState(1)
     let maxStock = (props.stock)
-    
+
     const handleSumar = () => {
-        if (counter < maxStock ) {
+        if (counter < maxStock) {
             setCounter(counter + 1)
-            }
+        }
     }
 
     const handleRestar = () => {
         if (counter > 1) {
-        setCounter(counter - 1)
+            setCounter(counter - 1)
         }
     }
 
@@ -24,7 +24,7 @@ const Contador = (props) => {
         <div className="Contador__container">
 
             <button onClick={handleRestar} className="button">-</button>
-                <span className='contador'>{counter}</span>
+            <span className='contador'>{counter}</span>
             <button onClick={handleSumar} className="button">+</button>
 
         </div>

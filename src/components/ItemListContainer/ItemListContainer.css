@@ -4,10 +4,16 @@
     font-family: 'Roboto';
 }
 
+.ItemListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .ItemContainer {
     display: block;
     max-width: 300px !important;
-    max-height: 500px !important;
+    max-height: 650px !important;
     text-align: center;
     margin: 2rem;
     padding: 1rem;
@@ -17,17 +23,17 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+img {
+    max-width: 300px;
+}
+
 .ItemContainer:hover {
-    animation: productShadow 0.5s forwards;
+    animation: productShadow 1s forwards;
 }
 
 @keyframes productShadow {
     0% {
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    }
-
-    50% {
-        box-shadow: rgba(100, 100, 111, 0.5) 0px 9px 31px 0px;
     }
 
     100% {
@@ -39,6 +45,10 @@
     margin: 2rem 2rem 2rem 1rem;
     font-weight: bold;
     font-size: 1rem;
+}
+
+.description {
+    font-size: 0.7rem;
 }
 
 .btn__container {
