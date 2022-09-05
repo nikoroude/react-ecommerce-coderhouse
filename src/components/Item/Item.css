@@ -1,0 +1,18 @@
+img {
+    max-width: 300px;
+}
+.descriptionProduct {
+    margin: 2rem 2rem 2rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.description {
+    font-size: 0.7rem;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

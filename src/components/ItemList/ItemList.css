@@ -1,0 +1,27 @@
+
+.ItemContainer {
+    display: block;
+    max-width: 300px !important;
+    max-height: 650px !important;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #0000000f;
+    background-color: #b9b9b90f;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ItemContainer:hover {
+    animation: productShadow 1s forwards;
+}
+
+@keyframes productShadow {
+    0% {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    100% {
+        box-shadow: rgba(100, 100, 111, 0.8) 0px 11px 33px 0px;
+    }
+}
