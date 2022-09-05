@@ -1,5 +1,5 @@
 import './ListProducts.css'
-import ProductContainer from "../ItemListContainer/ItemListContainer";
+import ItemListContainer from "../ItemListContainer/ItemListContainer";
 
 
 
@@ -13,7 +13,7 @@ const ListProducts = (props) => {
             </div>
         
             <div className="containerList">
-                <ProductContainer/>
+                <ItemListContainer/>
                 {/* <ProductContainer stock="4" price="99.999" image="./assets/img/products/000005.jpg" alt="Notebook Lenovo 81WA00D8AR" description="Lenovo Notebook Lenovo IdeaPad 14 pulgadas 4GB 256GB Core i3"/>
                 <ProductContainer stock="3" price="14.500" image="./assets/img/products/000003.jpg" alt="Smartwatch Nictom NT16" description="Reloj Inteligente Smartwatch Nictom NT16 Sumergible"/>
                 <ProductContainer stock="15" price="68.587" image="./assets/img/products/000007.jpg" alt="Monitor Gamer 27" description="Aopen Monitor Gamer Curvo AOPEN 27 pulgadas Full HD"/>
