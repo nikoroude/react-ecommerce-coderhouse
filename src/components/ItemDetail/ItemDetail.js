@@ -1,7 +1,7 @@
 import './ItemDetail.css'
 import Item from '../Item/Item'
 
-const ItemDetail = (prod = [] , idProducto = null) => {
+const ItemDetail = ({prod = [] , idProducto}) => {
 
     return (
         <div className='ItemDetail'>

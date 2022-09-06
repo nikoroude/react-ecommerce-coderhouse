@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import ItemDetail from '../ItemDetail/ItemDetail'
 
-const ItemDetailContainer = ( {idProducto} ) => {
+const ItemDetailContainer = (idProducto) => {
 
     const [item, setItem] = useState(null)
 
@@ -15,6 +15,7 @@ const ItemDetailContainer = ( {idProducto} ) => {
                 console.log(error)
             })
             .finally(()=>{})
+            
     }, [])
 
     return (
