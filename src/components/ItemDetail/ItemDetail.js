@@ -1,11 +1,15 @@
 import './ItemDetail.css'
-import Item from '../Item/Item'
+import Detail from '../Detail/Detail'
 
 const ItemDetail = ({prod = [] , idProducto}) => {
 
+    // if (!Detail) {
+    //     return
+    // }
+
     return (
         <div className='ItemDetail'>
-            <Item producto={prod} key= {idProducto} />
+            <Detail producto={prod} key= {idProducto} />
         </div>
     )
 }

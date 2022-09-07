@@ -1,6 +1,7 @@
 export const stock = [
     {
         id: 1,
+        category: 'smartwatch',
         nombre: 'Smartwatch Nictom NT16',
         precio: 18.999,
         img: './assets/img/products/000001.jpg',
@@ -9,6 +10,7 @@ export const stock = [
     },
     {
         id: 2,
+        category: 'smartwatch',
         nombre: 'Smartwatch Nictom NT14',
         precio: 15.999,
         img: './assets/img/products/000002.jpg',
@@ -17,6 +19,7 @@ export const stock = [
     },
     {
         id: 3,
+        category: 'smartwatch',
         nombre: 'Smartwatch Nictom NT16',
         precio: 14.499,
         img: './assets/img/products/000003.jpg',
@@ -25,14 +28,16 @@ export const stock = [
     },
     {
         id: 4,
+        category: 'smartwatch',
         nombre: 'Smartwatch Nictom KW37',
         precio: 24.999,
         img: './assets/img/products/000004.jpg',
         stock: 30,
-        desc: 'Reloj Smartwatch Nictom KW37 Negro Bluetooth',
+        desc: 'Para los amantes de la tecnología y la vida saludable, un reloj inteligente es el complemento ideal de todas las actividades diarias. Las diferentes herramientas que incorpora están pensadas para hacer tu vida más fácil. ¡Vas a tener varios dispositivos integrados en uno!',
     },
     {
         id: 5,
+        category: 'pc',
         nombre: 'Notebook Lenovo IdeaPad 14-256-i3',
         precio: 99.999,
         img: './assets/img/products/000005.jpg',
@@ -41,6 +46,7 @@ export const stock = [
     },
     {
         id: 6,
+        category: 'tablet',
         nombre: 'Tablet Exo Wave i716',
         precio: 26.999,
         img: './assets/img/products/000006.jpg',
@@ -49,6 +55,7 @@ export const stock = [
     },
     {
         id: 7,
+        category: 'monitor',
         nombre: 'Monitor AOPEN C-27',
         precio: 68.587,
         img: './assets/img/products/000007.jpg',
@@ -57,6 +64,7 @@ export const stock = [
     },
     {
         id: 8,
+        category: 'monitor',
         nombre: 'Monitor Gigabyte G27F',
         precio: 132.299,
         img: './assets/img/products/000008.jpg',
@@ -65,6 +73,7 @@ export const stock = [
     },
     {
         id: 9,
+        category: 'pc',
         nombre: 'NOTEBOOK LENOVO 82H802JKAR',
         precio: 189.999,
         img: './assets/img/products/000009.jpg',
@@ -73,6 +82,7 @@ export const stock = [
     },
     {
         id: 10,
+        category: 'tv',
         nombre: 'SMARTTV LG 43UP7750',
         precio: 122.999,
         img: './assets/img/products/000010.jpg',
@@ -81,6 +91,7 @@ export const stock = [
     },
     {
         id: 11,
+        category: 'pc',
         nombre: 'IMPRESORA HP INK TANK 415',
         precio: 48.199,
         img: './assets/img/products/000011.jpg',
@@ -89,6 +100,7 @@ export const stock = [
     },
     {
         id: 12,
+        category: 'pc',
         nombre: 'PC ViewSonick VPC501',
         precio: 149.999,
         img: './assets/img/products/000012.jpg',
@@ -97,6 +109,7 @@ export const stock = [
     },
     {
         id: 13,
+        category: 'pc',
         nombre: 'MacBook Pro Air 13',
         precio: 659.499,
         img: './assets/img/products/000013.jpg',
@@ -105,6 +118,7 @@ export const stock = [
     },
     {
         id: 14,
+        category: 'pc',
         nombre: 'MacBook Pro M1 13.3',
         precio: 571.999,
         img: './assets/img/products/000014.jpg',

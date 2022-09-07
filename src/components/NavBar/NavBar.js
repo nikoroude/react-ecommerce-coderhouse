@@ -1,6 +1,6 @@
 import './NavBar.css';
-import shop from '../../assets/img/icono-tienda.png';
-import profile from '../../assets/img/user.png';
+import shop from '../../assets/img/TechShop.jpeg';
+import profile from '../../assets/img/icon-profile.png';
 import CartWidget from '../CartWidget/CartWidget'
 
 
@@ -20,7 +20,7 @@ const NavBar = (props) => {
                     <a href='#' className="navbar__item hotsale">HOT SALE</a>
                     <div className="navbar__icon">
                         <a href='#' className="icon"><CartWidget /></a>
-                        <a href='#' className="icon"><img src={profile} alt="Mi perfil" /></a>
+                        <a href='#' className="icon"><img className='iconProfile' src={profile} alt="Mi perfil" /></a>
                     </div>
                 </nav>
             </header>

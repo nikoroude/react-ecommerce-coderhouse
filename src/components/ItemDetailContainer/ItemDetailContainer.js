@@ -1,13 +1,14 @@
+import './ItemDetailContainer.css'
 import {useState, useEffect} from 'react'
-import { pedirDatos } from '../../helpers/pedirDatos'
+import { buscarProducto } from '../../helpers/buscarProducto'
 import ItemDetail from '../ItemDetail/ItemDetail'
 
-const ItemDetailContainer = (idProducto) => {
-
-    const [item, setItem] = useState(null)
+const ItemDetailContainer = ({idProducto}) => {
+    
+    const [item, setItem] = useState([])
 
     useEffect (() => {
-        pedirDatos(idProducto)
+        buscarProducto(idProducto)
             .then((res) => {
                 setItem(res)
             })
