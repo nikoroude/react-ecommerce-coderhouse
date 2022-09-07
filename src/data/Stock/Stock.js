@@ -60,7 +60,7 @@ export const stock = [
         precio: 68.587,
         img: './assets/img/products/000007.jpg',
         stock: 20,
-        desc: 'Aopen Monitor Gamer Curvo AOPEN 27 pulgadas Full HD',
+        desc: 'Disfrutá de todas las cualidades que el monitor AOpen 27HC5R X tiene para ofrecerte. Percibí las imágenes de una manera completamente diferente y complementá cualquier espacio ya sea en tu casa u oficina. Con tu pantalla LED no solo ahorrás energía, ya que su consumo es bajo, sino que vas a ver colores nítidos y definidos en tus películas o series favoritas. Este monitor de 27" te va a resultar cómodo para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 1920 x 1080 te permite disfrutar de momentos únicos gracias a una imagen de alta fidelidad. Una de sus virtudes es que posee pantalla antirreflejo, de esta manera no verás reflejado lo que está detrás de vos y vas a evitar forzar tu vista para enfocar el contenido.',
     },
     {
         id: 8,
