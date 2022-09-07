@@ -6,7 +6,7 @@ export const stock = [
         precio: 18.999,
         img: './assets/img/products/000001.jpg',
         stock: 50,
-        desc: 'Reloj Smartwatch Nictom NT16 Sumergible + Malla Metal',
+        desc: 'El SmartWatch NT16 cuenta con aplicación de modo deportivo para correr, caminar, ciclismo, escalada, yoga, saltar a la cuerda, sentadillas. Además, tiene funciones de salud de frecuencia cardíaca, monitorización de sueño, podómetro, oxígeno en sangre y presión arterial.',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const stock = [
         precio: 15.999,
         img: './assets/img/products/000002.jpg',
         stock: 15,
-        desc: 'Reloj Smartwatch Nictom NT14 Sumergible + Malla Metal',
+        desc: 'El SmartWatch NT14 tiene una pantalla de 1,75" y resistente al agua. Sincronizado con tu celular, vas a poder recibir notificaciones de mensajes, controlar la cámara y la música de tu Smartphone.',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const stock = [
         precio: 14.499,
         img: './assets/img/products/000003.jpg',
         stock: 3,
-        desc: 'Reloj Inteligente Smartwatch Nictom NT16 Sumergible',
+        desc: 'El SmartWatch NT16 cuenta con aplicación de modo deportivo para correr, caminar, ciclismo, escalada, yoga, saltar a la cuerda, sentadillas. Además, tiene funciones de salud de frecuencia cardíaca, monitorización de sueño, podómetro, oxígeno en sangre y presión arterial.',
     },
     {
         id: 4,
@@ -51,7 +51,7 @@ export const stock = [
         precio: 26.999,
         img: './assets/img/products/000006.jpg',
         stock: 50,
-        desc: 'Exo Tablet Exo Wave i716 1/16 7 pulgadas',
+        desc: 'Tablet Exo Wave i716 1/16 7 Pulgadas - i716 A10 Esta Tablet es ideal para cada una de tus actividades: editar fotos, documentos, navegar por internet y ¡mucho más! Su diseño delgado, compacto y portátil es la combinación perfecta de rendimiento y versatilidad. Transferir, sincronizar y acceder a tus dispositivos las veces que quieras ahora es posible. Sus conexiones Bluetooth, Wi-Fi, Micro-USB, otg te permiten potenciar sus funciones al máximo.',
     },
     {
         id: 7,
