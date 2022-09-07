@@ -3,9 +3,9 @@ import Detail from '../Detail/Detail'
 
 const ItemDetail = ({prod = [] , idProducto}) => {
 
-    // if (!Detail) {
-    //     return
-    // }
+    if (!Detail) {
+        return
+    }
 
     return (
         <div className='ItemDetail'>

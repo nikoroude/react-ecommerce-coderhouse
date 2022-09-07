@@ -13,7 +13,7 @@ function App() {
       
       <NavBar title="e-commerce" />
   
-      {/* <ListProducts title="OFERTAS IMPERDIBLES" /> */}
+      <ListProducts title="OFERTAS IMPERDIBLES" />
       <ItemDetailContainer idProducto={4} />
 
       <Footer />

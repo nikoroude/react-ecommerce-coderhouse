@@ -4,19 +4,16 @@
     justify-content: center;
 }
 
-/* .category {
-    
-} */
 
-.productContainer {
+
+.productDetailContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* justify-content: center; */
     
 }
 
-.imgProduct {
+.imgDetail {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,29 +21,29 @@
     
 }
 
-.imgProduct h6{
+.imgDetail h6{
     font-size: 1rem;
 }
 
-.descriptionProduct h1{
+.descriptionProductDetail h1{
     text-transform: uppercase;
     font-size: 2.5rem;
 }
 
-.descriptionProduct {
+.descriptionProductDetail {
     margin-left: 5rem;
     width: 65vh;
     display: flex;
     flex-direction: column;
 }
 
-.description {
+.descriptionDetail {
     font-size: 1rem;
     font-weight: 200;
     text-align: justify;
 }
 
-.descriptionTitle {
+.descriptionTitleDetail {
     font-size: 1.5rem;
     font-weight: 200;
 }
