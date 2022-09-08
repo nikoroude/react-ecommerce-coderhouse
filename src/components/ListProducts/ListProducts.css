@@ -1,5 +1,7 @@
 @import url("@fontsource/roboto");
 
+
+
 .containerList {
     display: flex;
     flex-direction:  row;
@@ -13,6 +15,7 @@
 }
 
 .containerList__title{
+    text-transform: uppercase;
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 3rem;

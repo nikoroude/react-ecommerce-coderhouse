@@ -6,7 +6,8 @@ const Detail = ({ producto }) => {
 
     return (
         <div className="DetailContainer">
-            <span className='category'>{producto.category}</span>
+            
+            <span className='category'>{producto.category} / {producto.nombre}</span>
             <div className='productDetailContainer'>
                 <div className="imgDetail">
                     <img src={producto.img} alt={producto.nombre} />
@@ -18,12 +19,11 @@ const Detail = ({ producto }) => {
                     <h2>${producto.precio}</h2>
                     <span className="descriptionTitleDetail">Descripción:</span>
                     <p className='descriptionDetail'>{producto.desc}</p>
+                    <p />
                     <AddToCart />
                 </div>
             </div>
 
-            <div className='btn__container'>
-            </div>
         </div>
     )
 }

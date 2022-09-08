@@ -1,0 +1,38 @@
+@import url("@fontsource/roboto");
+
+*{
+    font-family: 'Roboto';
+}
+
+.button__verMas {
+    background-image: linear-gradient(45deg, #2f78ff 0%, #19d0f0  51%, #2fb6ff  100%)
+   }
+   
+   .button__verMas {
+    margin: 1px;
+    padding-top: 12px;
+    width: 9rem;
+    height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    border: 0px;
+    font-weight: 100;
+    box-shadow: 0px 0px 14px -7px #19c9f0;
+   }
+   
+   .button__verMas:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .button__verMas:active {
+    transform: scale(0.95);
+   }

@@ -1,7 +1,7 @@
 .DetailContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 
@@ -10,7 +10,15 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
 }
 
 .imgDetail {

@@ -3,22 +3,38 @@ import NavBar from './components/NavBar/NavBar.js'
 import ListProducts from './components/ListProducts/ListProducts.js';
 import Footer from './components/Footer/Footer.js';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Nosotros from './components/Nosotros/Nosotros';
+import Contacto from './components/Contacto/Contacto';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+
 
 
 
 function App() {
   return (
-    
-    <div>
-      
-      <NavBar title="e-commerce" />
-  
-      <ListProducts title="OFERTAS IMPERDIBLES" />
-      <ItemDetailContainer idProducto={4} />
 
-      <Footer />
-      
-    </div>
+    <BrowserRouter>
+
+      <NavBar title="e-commerce" />
+
+      <Routes id='Routes'>
+        <Route path='/' element={ <ListProducts title="OFERTAS IMPERDIBLES DE LA SEMANA" /> } />
+        
+        <Route path='/Productos/:categoryId' element={<ListProducts />}/>
+        <Route path='/Item/:itemId' element={<ItemDetailContainer />}/>
+        
+        <Route path='/Nosotros' element={ <Nosotros /> }/>
+        <Route path='/Contacto' element={ <Contacto /> }/>
+        <Route path='/Producto' element={ <ItemDetailContainer idProducto={6} /> } />
+        <Route path='*' element={ <Navigate to="/" />}/>
+      </Routes>
+        
+
+
+      <Footer id='App-footer'/>
+
+    </BrowserRouter>
 
   );
 }

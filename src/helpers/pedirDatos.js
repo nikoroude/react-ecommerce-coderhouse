@@ -5,6 +5,6 @@ export const pedirDatos = () => {
         //?cuerpo de promesa
         setTimeout(() => {
                 resolve(stock)
-        }, 1500)
+        }, 3000)
     })
 }

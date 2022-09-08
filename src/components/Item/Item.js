@@ -1,6 +1,7 @@
 import './Item.css'
 import Contador from '../Contador/Contador'
-import AddToCart from '../AddToCart/AddToCart';
+import VerMas from '../VerMas/VerMas';
+import { Link } from 'react-router-dom';
 
 const Item = ({ producto }) => {
 
@@ -19,7 +20,8 @@ const Item = ({ producto }) => {
 
             <div className='btn__container'>
                 <Contador stock={producto.stock} />
-                <AddToCart />
+                <VerMas itemId={producto.id}/>
+                <Link to={'/'}/>
             </div>
         </div>
     )
