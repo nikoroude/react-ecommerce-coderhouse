@@ -6,6 +6,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Nosotros from './components/Nosotros/Nosotros';
 import Contacto from './components/Contacto/Contacto';
+import Cart from './components/Cart/Cart';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 
@@ -19,13 +20,14 @@ function App() {
       <NavBar title="e-commerce" />
 
       <Routes id='Routes'>
-        <Route path='/' element={ <ListProducts title="OFERTAS IMPERDIBLES DE LA SEMANA" /> } />
+        <Route path='*' element={ <ListProducts title="OFERTAS IMPERDIBLES DE LA SEMANA" /> } />
         
         <Route path='/Productos/:categoryId' element={<ListProducts />}/>
         <Route path='/Item/:itemId' element={<ItemDetailContainer />}/>
         
         <Route path='/Nosotros' element={ <Nosotros /> }/>
         <Route path='/Contacto' element={ <Contacto /> }/>
+        <Route path='/Cart' element={ <Cart /> }/>
         <Route path='/Producto' element={ <ItemDetailContainer idProducto={6} /> } />
         <Route path='*' element={ <Navigate to="/" />}/>
       </Routes>

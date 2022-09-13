@@ -1,13 +1,14 @@
 @import url("@fontsource/roboto");
 
-*{
-    font-family: 'Roboto';
-    font-weight: 600;
-}
 
 .Contador__container {
-    text-align: right;
+    text-align: center;
 }
+
+.button__add{
+  text-decoration: none;
+}
+
 
 .contador {
     margin-inline: 1rem;

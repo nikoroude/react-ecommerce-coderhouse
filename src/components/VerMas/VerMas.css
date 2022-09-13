@@ -1,11 +1,15 @@
 @import url("@fontsource/roboto");
 
-*{
-    font-family: 'Roboto';
+.verMas__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .button__verMas {
-    background-image: linear-gradient(45deg, #2f78ff 0%, #19d0f0  51%, #2fb6ff  100%)
+    background-image: linear-gradient(45deg, #2f78ff 0%, #19d0f0  51%, #2fb6ff  100%);
+    
    }
    
    .button__verMas {

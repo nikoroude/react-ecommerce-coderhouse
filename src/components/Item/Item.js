@@ -15,14 +15,13 @@ const Item = ({ producto }) => {
                     <h3>{producto.nombre}</h3>
                     <h2>${producto.precio}</h2>
                     <h6>Stock disponible: {producto.stock}</h6>
+                    <VerMas itemId={producto.id}/>
                 </div>
             </div>
 
-            <div className='btn__container'>
-                <Contador stock={producto.stock} />
-                <VerMas itemId={producto.id}/>
-                <Link to={'/'}/>
-            </div>
+            {/* <div className='btn__container'>
+                
+            </div> */}
         </div>
     )
     

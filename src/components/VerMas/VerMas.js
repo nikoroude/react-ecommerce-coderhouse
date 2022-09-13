@@ -8,7 +8,7 @@ const VerMas = ({itemId}) => {
     
     return (
 
-        <div className="add__container">
+        <div className="verMas__container">
             <Link to={`/Item/${itemId}`} className="button__verMas">Ver producto</Link>
         </div>
 

@@ -1,7 +1,7 @@
 @import url("@fontsource/roboto");
 
-*{
-    font-family: 'Roboto';
+.add__container {
+    margin-top: 1rem;
 }
 
 .button__add {

@@ -1,14 +1,15 @@
 import './Contador.css'
-import { useState } from "react"
+import { Link } from 'react-router-dom';
+
+// import { useState } from "react"
+import AddToCart from '../AddToCart/AddToCart'
 
 
-const Contador = (props) => {
+const Contador = ({max, counter, setCounter, handleAgregar}) => {
 
-    const [counter, setCounter] = useState(1)
-    let maxStock = (props.stock)
 
     const handleSumar = () => {
-        if (counter < maxStock) {
+        if (counter < max) {
             setCounter(counter + 1)
         }
     }
@@ -19,6 +20,8 @@ const Contador = (props) => {
         }
     }
 
+    
+
     return (
 
         <div className="Contador__container">
@@ -26,6 +29,11 @@ const Contador = (props) => {
             <button onClick={handleRestar} className="button">-</button>
             <span className='contador'>{counter}</span>
             <button onClick={handleSumar} className="button">+</button>
+
+            <div className="add__container">
+                <Link to={'/Cart'} onClick={handleAgregar} className="button__add">AGREGAR AL CARRITO</Link>
+            </div>
+
 
         </div>
 
