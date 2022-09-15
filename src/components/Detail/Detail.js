@@ -1,9 +1,15 @@
 import './Detail.css'
 import Contador from '../Contador/Contador'
 // import AddToCart from '../AddToCart/AddToCart';
-import { useState } from "react"
+import { useContext, useState } from "react"
+import { CartContext } from '../../context/CartContext'
+import { Link } from 'react-router-dom';
+
 
 const Detail = ({ producto }) => {
+
+    const { cart, AddToCart, isInCart } = useContext(CartContext)
+    console.log(cart)
 
     const [cantidad, setCantidad] = useState(1)
 
@@ -12,11 +18,11 @@ const Detail = ({ producto }) => {
             id: producto.id,
             nombre: producto.nombre,
             precio: producto.precio,
-            cantidad
+            img: producto.img,
+            cantidad,
         }
-        console.log({
-            itemToCart
-        })
+        
+        AddToCart(itemToCart)
     }
 
     return (
@@ -27,12 +33,19 @@ const Detail = ({ producto }) => {
                 <div className="imgDetail">
                     <img src={producto.img} alt={producto.nombre} />
                     <h6>Stock disponible: {producto.stock}</h6>
-                    <Contador
+                    
+                    {
+                        isInCart(producto.id)
+                        ?<Link to={'/Cart'} className="button__add">IR AL CARRITO</Link>
+                        :<Contador
                         max={producto.stock}
                         counter={cantidad}
                         setCounter={setCantidad}
                         handleAgregar={handleAgregar}
                     />
+                    }
+                    
+                    
                 </div>
 
                 <div className="descriptionProductDetail">

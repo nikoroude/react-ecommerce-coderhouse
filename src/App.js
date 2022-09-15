@@ -7,17 +7,15 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Nosotros from './components/Nosotros/Nosotros';
 import Contacto from './components/Contacto/Contacto';
 import Cart from './components/Cart/Cart';
-import { CartContext } from './context/CartContext'
-// import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import { CartProvider } from './context/CartContext';
 
 
 
-function App() {
-
-  
+const App = () => {
 
   return (
-    <CartContext.Provider value={ {} }>
+
+    <CartProvider>
 
       <BrowserRouter>
 
@@ -43,7 +41,7 @@ function App() {
 
       </BrowserRouter>
 
-    </CartContext.Provider>
+    </CartProvider>
   );
 }
 

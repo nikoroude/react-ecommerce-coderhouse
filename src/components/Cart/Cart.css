@@ -1,0 +1,14 @@
+#cartContainer {
+    padding-top: 2rem;
+    padding-inline: 4rem;
+}
+
+#cart-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#total{
+    font-weight: 500;
+    font-size: 1.5rem;
+}

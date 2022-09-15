@@ -1,5 +1,5 @@
 import './Contador.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 // import { useState } from "react"
 import AddToCart from '../AddToCart/AddToCart'
@@ -31,7 +31,8 @@ const Contador = ({max, counter, setCounter, handleAgregar}) => {
             <button onClick={handleSumar} className="button">+</button>
 
             <div className="add__container">
-                <Link to={'/Cart'} onClick={handleAgregar} className="button__add">AGREGAR AL CARRITO</Link>
+                <span onClick={handleAgregar} className="button__agregar">AGREGAR AL CARRITO</span>
+                
             </div>
 
 

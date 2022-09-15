@@ -1,0 +1,13 @@
+.itemCartContainer{
+    margin-top: 1.5 rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.img-cart{
+    margin-right: 3rem;
+    width: 150px;
+    height: 150px;
+}
