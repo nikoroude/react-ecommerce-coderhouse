@@ -3,11 +3,15 @@ import shop from '../../assets/img/TechShop.jpeg';
 import profile from '../../assets/img/icon-profile.png';
 import CartWidget from '../CartWidget/CartWidget';
 import { Link } from 'react-router-dom';
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
 
 
 
 
 const NavBar = (props) => {
+
+    const { cart } = useContext(CartContext)
 
     return (
 
@@ -23,7 +27,7 @@ const NavBar = (props) => {
                     <Link to='/Productos/celulares' className="navbar__item">CELULARES</Link>
                     <Link to='/' className="navbar__item hotsale">VER TODOS</Link>
                     <div className="navbar__icon">
-                        <Link to='#' className="icon"><CartWidget /></Link>
+                        <Link to='#' className={(cart.length === 0) ? "d-none" : "icon"}><CartWidget /></Link>
                         <Link to='#' className="icon"><img className='iconProfile' src={profile} alt="Mi perfil" /></Link>
                     </div>
                 </nav>

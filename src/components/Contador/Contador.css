@@ -10,6 +10,7 @@
 }
 .button__agregar{
   text-decoration: none;
+  cursor: pointer;
 }
 .button__empty{
   text-decoration: none;
