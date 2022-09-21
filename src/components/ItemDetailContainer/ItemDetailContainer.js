@@ -1,9 +1,11 @@
 import './ItemDetailContainer.css'
 import { useState, useEffect } from 'react'
-import { buscarProducto } from '../../helpers/buscarProducto'
+// import { buscarProducto } from '../../helpers/buscarProducto'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import { useParams } from 'react-router-dom'
 import Loading from '../Loading/Loading'
+import { doc, getDoc} from "firebase/firestore"
+import { db } from '../../Firebase/configFirebase'
 
 
 const ItemDetailContainer = () => {
@@ -17,19 +19,27 @@ const ItemDetailContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        buscarProducto({ itemId })
-            .then((res) => {
-                setItem(res)
+        const docRef = doc(db, 'productos', itemId)
+        getDoc(docRef)
+            .then((doc) => {
+                setItem({id: doc.id, ...doc.data()})
             })
-            .catch((error) => {
-                console.log(error)
-            })
-            .finally(() => {
+            .finally( () => {
                 setLoading(false)
             })
-
     }, [])
-
+    
+    // buscarProducto({ itemId })
+    //     .then((res) => {
+    //         setItem(res)
+    //     })
+    //     .catch((error) => {
+    //         console.log(error)
+    //     })
+    //     .finally(() => {
+    //         setLoading(false)
+    //     })
+    
     return (
         <div className='ItemDetailContainer'>
 

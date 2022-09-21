@@ -1,5 +1,5 @@
 export const stock = [
-    {
+    {//TODO
         id: 1,
         category: 'smartwatch',
         nombre: 'Smartwatch Nictom NT16',
@@ -8,7 +8,7 @@ export const stock = [
         stock: 50,
         desc: 'El SmartWatch NT16 cuenta con aplicación de modo deportivo para correr, caminar, ciclismo, escalada, yoga, saltar a la cuerda, sentadillas. Además, tiene funciones de salud de frecuencia cardíaca, monitorización de sueño, podómetro, oxígeno en sangre y presión arterial.',
     },
-    {
+    {//TODO
         id: 2,
         category: 'smartwatch',
         nombre: 'Smartwatch Nictom NT14',
@@ -35,7 +35,7 @@ export const stock = [
         stock: 30,
         desc: 'Para los amantes de la tecnología y la vida saludable, un reloj inteligente es el complemento ideal de todas las actividades diarias. Las diferentes herramientas que incorpora están pensadas para hacer tu vida más fácil. ¡Vas a tener varios dispositivos integrados en uno!',
     },
-    {
+    {//TODO
         id: 5,
         category: 'informatica',
         nombre: 'Notebook Lenovo IdeaPad 14-256-i3',
@@ -44,7 +44,7 @@ export const stock = [
         stock: 15,
         desc: 'La notebook Lenovo 81WA00D8AR cuenta con un diseño compacto y funcional. Sus prácticas medidas de: 32,7 cm de ancho x 24,1 cm de profundidad x 1,9 cm de alto y su liviano peso de tan sólo 1,5 Kg permiten que puedas llevarla con vos a donde vayas. Su procesador Intel Core i3 y su memoria de 4GB se complementan para ofrecer un mayor rendimiento con un bajo consumo de energía. Además, su disco de estado sólido de 256 GB le da una gran capacidad de almacenamiento de datos y te permite guardar una mayor cantidad de contenido multimedia. Posee una pantalla HD de 14 pulgadas, con una resolución de 1366x768 que te permitirá disfrutar de una gran calidad de colores e imagen. Ideal para ver maratones de series y películas.',
     },
-    {
+    {//TODO
         id: 6,
         category: 'informatica',
         nombre: 'Tablet Exo Wave i716',
@@ -53,7 +53,7 @@ export const stock = [
         stock: 50,
         desc: 'Tablet Exo Wave i716 1/16 7 Pulgadas - i716 A10 Esta Tablet es ideal para cada una de tus actividades: editar fotos, documentos, navegar por internet y ¡mucho más! Su diseño delgado, compacto y portátil es la combinación perfecta de rendimiento y versatilidad. Transferir, sincronizar y acceder a tus dispositivos las veces que quieras ahora es posible. Sus conexiones Bluetooth, Wi-Fi, Micro-USB, otg te permiten potenciar sus funciones al máximo.',
     },
-    {
+    {//TODO
         id: 7,
         category: 'informatica',
         nombre: 'Monitor AOPEN C-27',
@@ -80,7 +80,7 @@ export const stock = [
         stock: 100,
         desc: 'Procesador: Intel Core i7-1165G7 (4C / 8T, 2.8 / 4.7GHz, 12MB). Placa de video integrada: Intel Iris Xe Graphics. Pantalla: FHD de 15,6" (1920 x 1080) TN 250 nits Antirreflejo. Memoria RAM: DDR4-3200 soldada de 4GB + SO-DIMM DDR4-3200 de 4GB. Almacenamiento: SSD de 256 GB M.2 2242 PCIe 3.0x4 NVMe. Lector de tarjetas 4 en 1. USB. WIFI. Bluetooth. Altavoces estereo, 1,5 W x2, Dolby Audio. Camara: 720p con obturador de privacidad. Microfono. Bateria: Integrado 38Wh. Sistema Operativo: Windows 11 Home.',
     },
-    {
+    {//TODO
         id: 10,
         category: 'tv',
         nombre: 'SMARTTV LG 43UP7750',
@@ -125,7 +125,7 @@ export const stock = [
         stock: 8,
         desc: 'Su memoria RAM integrada de 8 GB se complementan para ofrecer un mayor desempeño, ya sea desde multitareas hasta juegos, con un bajo consumo de energía. Asimismo, almacená datos multimedia o programas en el disco SSD de 256 GB, que ayudará a tu MacBook Air a permitir un acceso más rápido a la información. También vas a poder navegar hasta 15 horas de forma inalámbrica gracias a su batería de polímero de litio integrada de 49.9 Wh. La MacBook Air MGN63LE/A de Apple cuenta con un diseño elegante y ligero. También, dispone de teclado retroiluminado para que puedas continuar escribiendo con poca luz ambiental y sensor integrado que ajusta automáticamente el brillo de la pantalla. Por otro lado, ofrece una resolución de hasta 1680 x 1050 píxeles. Gracias a su tecnología True Tone verás los colores más vívidos como nunca antes. Gracias a su Chip M1 de Apple, ofrece un procesador de 8 núcleos con 4 núcleos de rendimiento y 4 núcleos de eficiencia para que tengas la mejor experiencia y practicidad a la hora de trabajar o estudiar.',
     },
-    {
+    {//TODO
         id: 15,
         category: 'celulares',
         nombre: 'iPhone 13 Pro 256GB Sierra Blue',
@@ -143,10 +143,10 @@ export const stock = [
         stock: 12,
         desc: 'iPhone 13 Pro 256GB Silver Marca: Apple Modelo: iPhone 13 Pro Color: Silver Memoria interna: 256 GB Memoria RAM: 4 GB Dual SIM: No Compañía telefónica: Liberado Sistema operativo: iOS 15 Tamaño de la pantalla: 6.1" Resolución de la cámara: 12 MP Red: 5G Con pantalla táctil: Si Cámara digital: Si Capacidad de tarjeta de memoria: 256 GB USB: USB-C Teclado QWERTY: No Wi-Fi: Si Con GPS: Si Radio: Si Reproductor de música: Si Grabador de voz: Si Sintonizador de TV: No Tamaño de SIM: Nano-SIM Resolución de la pantalla: 2532 x 1170 pixeles a 460 ppi Tipo de batería: De litio recargable integrada Batería removible: No Sensor de movimiento: Si Brillo: Máximo de 1000 nits (normal); brillo máximo de 1,200 nits (HDR) Flash en cámara frontal: Si Cámara lenta: Si Con Bluetooth: Si Mini HDMI: No Zoom óptico: Si Zoom digital: Si Tipo de pantalla: OLED Modelo del Procesador: Chip A15 Bionic Es a prueba de agua: Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529 Lector de huella digital: No Sensor de proximidad: Si',
     },
-    {
+    {//TODO
         id: 17,
         category: 'celulares',
-        nombre: 'Celular Xiaomi Redmi Note 11 Pro 5G 6GB 128G Blue',
+        nombre: 'Xiaomi Redmi Note 11 Pro 5G 6GB 128G Blue',
         precio: 165499,
         img: '/assets/img/products/000017.jpg',
         stock: 18,
@@ -155,7 +155,7 @@ export const stock = [
     {
         id: 18,
         category: 'celulares',
-        nombre: 'Celular Samsung Galaxy A52s 5G 128 GB Negro',
+        nombre: 'Samsung Galaxy A52s 5G 128 GB Negro',
         precio: 122999,
         img: '/assets/img/products/000018.jpg',
         stock: 10,
