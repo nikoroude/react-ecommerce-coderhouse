@@ -116,7 +116,7 @@ export const stock = [
         stock: 8,
         desc: 'Macbook Air Apple M1 Chip 256GB Space Gray APPMBMGN63LLA ATENCION Idioma Ingles Chip M1 de Apple CPU de 8 núcleos con 4 núcleos de rendimiento y 4 de eficiencia GPU de 7 núcleos Neural Engine de 16 núcleos 8GB Memoria Unificada Almacenamiento 256GB SSD Pantalla de 13.3 pulgadas (diagonal) Retina con True Tone retroiluminada por LED con tecnología IPS; resolución nativa de 2560 x 1600 a 227 pixeles por pulgada compatible con millones de colores. Sistema operativo MacOS Big Sur: Es el sistema operativo para computadoras de escritorio más avanzado del mundo. Y con macOS Big Sur llega a un nuevo nivel de poder y elegancia, gracias a su nuevo diseño y a importantes mejoras en las apps. Magic Keyboard Touch ID Force Touch trackpad 2 Thunderbolt / USB 4 ports Batería y energía Batería de polímero de litio integrada de 49.9 Wh Hasta 18 horas de reproducción de video Tecnología inalámbrica Bluetooth 5.0 Cámara FaceTime HD de 720p Compatibilidad con video. Es compatible simultáneamente con la resolución nativa de la pantalla integrada en millones de colores y Un monitor externo con resolución de hasta 6K a 60 Hz',
     },
-    {
+    {//TODO
         id: 14,
         category: 'informatica',
         nombre: 'MacBook Pro M1 13.3',
@@ -134,7 +134,7 @@ export const stock = [
         stock: 8,
         desc: 'iPhone 13 Pro 256GB Sierra Blue Marca: Apple Modelo: iPhone 13 Pro Color: Sierra Blue Memoria interna: 256 GB Memoria RAM: 4 GB Dual SIM: No Compañía telefónica: Liberado Sistema operativo: iOS 15 Tamaño de la pantalla: 6.1" Resolución de la cámara: 12 MP Red: 5G Con pantalla táctil: Si Cámara digital: Si Capacidad de tarjeta de memoria: 256 GB USB: USB-C Teclado QWERTY: No Wi-Fi: Si Con GPS: Si Radio: Si Reproductor de música: Si Grabador de voz: Si Sintonizador de TV: No Tamaño de SIM: Nano-SIM Resolución de la pantalla: 2532 x 1170 pixeles a 460 ppi Tipo de batería: De litio recargable integrada Batería removible: No Sensor de movimiento: Si Brillo: Máximo de 1000 nits (normal); brillo máximo de 1,200 nits (HDR) Flash en cámara frontal: Si Cámara lenta: Si Con Bluetooth: Si Mini HDMI: No Zoom óptico: Si Zoom digital: Si Tipo de pantalla: OLED Modelo del Procesador: Chip A15 Bionic Es a prueba de agua: Clasificación IP68 (hasta 30 minutos a una profundidad máxima de 6 metros) según la norma IEC 60529 Lector de huella digital: No Sensor de proximidad: Si',
     },
-    {
+    {//TODO
         id: 16,
         category: 'celulares',
         nombre: 'iPhone 13 Pro 256GB Silver',
@@ -152,7 +152,7 @@ export const stock = [
         stock: 18,
         desc: 'Redmi Note 11 PRO 5G 6GB RAM+ 128GB Color: Azul Cámara principal de grado profesional de 108MP 5000 mAh (típico) Snapdragon® 695 frecuencia de actualización de 120 Hz Pantalla AMOLED FHD+ Tecnología LiquidCool.',
     },
-    {
+    {//TODO
         id: 18,
         category: 'celulares',
         nombre: 'Samsung Galaxy A52s 5G 128 GB Negro',
@@ -161,7 +161,7 @@ export const stock = [
         stock: 10,
         desc: 'Su memoria RAM integrada de 8 GB se complementan para ofrecer un mayor desempeño, ya sea desde multitareas hasta juegos, con un bajo consumo de energía. Asimismo, almacená datos multimedia o programas en el disco SSD de 256 GB, que ayudará a tu MacBook Air a permitir un acceso más rápido a la información. También vas a poder navegar hasta 15 horas de forma inalámbrica gracias a su batería de polímero de litio integrada de 49.9 Wh. La MacBook Air MGN63LE/A de Apple cuenta con un diseño elegante y ligero. También, dispone de teclado retroiluminado para que puedas continuar escribiendo con poca luz ambiental y sensor integrado que ajusta automáticamente el brillo de la pantalla. Por otro lado, ofrece una resolución de hasta 1680 x 1050 píxeles. Gracias a su tecnología True Tone verás los colores más vívidos como nunca antes. Gracias a su Chip M1 de Apple, ofrece un procesador de 8 núcleos con 4 núcleos de rendimiento y 4 núcleos de eficiencia para que tengas la mejor experiencia y practicidad a la hora de trabajar o estudiar.',
     },
-    {
+    {//TODO
         id: 19,
         category: 'tv',
         nombre: 'SMART QLED TV SAMSUNG 85 PULGADAS 4K UHD',
@@ -170,7 +170,7 @@ export const stock = [
         stock: 15,
         desc: 'Inteligencia detrás de una gloriosa imagen y sonido. El procesador Quantum 4K impulsa un rendimiento completo, optimizando la imagen y el sonido de manera inteligente para brindarte una experiencia de visualización realmente impresionante. Tonos optimizados para un contraste mejorado. DUAL LED: La innovadora tecnología de retroiluminación ofrece un contraste más audaz y preciso al optimizar el tono de color de la retroiluminación para que coincida con el tipo de contenido que se estás viendo. La tecnología Quantum Dot ofrece nuestra más reciente y mejorada calidad de imagen. Con un 100% de volumen de color, Quantum Dot toma la luz y la convierte en un color impresionante que se mantiene vivo y realista a cualquier nivel de brillo.',
     },
-    {
+    {//TODO
         id: 20,
         category: 'tv',
         nombre: 'SMART QLED MINI LED GOOGLE TV TCL 55 PULGADAS 4K UHD',
