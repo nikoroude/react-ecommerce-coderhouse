@@ -3,6 +3,8 @@ import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import ItemCart from "../ItemCart/ItemCart";
 import EmptyCart from '../EmptyCart/EmptyCart';
+import { Link } from 'react-router-dom';
+
 
 
 const Cart = () => {
@@ -28,7 +30,10 @@ const Cart = () => {
 
             <h4 id='total'>Total: ${cartTotal().toFixed()}</h4>
 
-            <span onClick={emptyCart} className="button__empty">VACIAR CARRITO</span>
+            <div className='button__container'>
+                <span onClick={emptyCart} className="button__empty">VACIAR CARRITO</span>
+                <Link to="/Checkout" className="button__finalizar">FINALIZAR COMPRA</Link>
+            </div>
 
         </div>
     )

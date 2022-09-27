@@ -1,22 +1,25 @@
-import { createContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
+import Swal from 'sweetalert2'
 
 
 export const CartContext = createContext()
 
+const init = JSON.parse(localStorage.getItem('carrito')) || []
+
 export const CartProvider = ({children}) => {
 
-    const [cart, setCart] = useState([])
+    const [cart, setCart] = useState(init)
 
     const AddToCart = (item) => {
         setCart([...cart, item])
     }
 
     const removeItem = (id) => {
-        setCart( cart.filter((item) => item.id != id))
+        setCart( cart.filter((item) => item.id !== id))
     }
 
     const isInCart = (id) => {
-        return cart.find((item) => item.id === id)
+        return cart.some((item) => item.id === id)
     }
 
     const cartQuantity = () => {
@@ -35,6 +38,10 @@ export const CartProvider = ({children}) => {
         setCart([])
     }
 
+    const terminarCompra = () => {
+        setCart([])
+    }
+
     return(
         <CartContext.Provider value = { {
             cart,
@@ -45,10 +52,15 @@ export const CartProvider = ({children}) => {
             itemTotal,
             emptyCart,
             removeItem,
+            terminarCompra,
         } }>
 
             {children}
 
         </CartContext.Provider>
     )
+}
+
+export const useCartContext = () => {
+    return useContext(CartContext)
 }

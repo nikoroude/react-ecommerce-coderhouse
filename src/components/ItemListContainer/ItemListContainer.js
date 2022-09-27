@@ -29,7 +29,7 @@ const ItemListContainer = () => {
         getDocs(q)
             .then((resp) => {
                 const productosDB = resp.docs.map( (doc) => ({id: doc.id , ...doc.data()}) ) //! creo un nuevo objeto, que incorpore el id dentro de los datos del mismo
-                console.log(productosDB)
+                // console.log(productosDB)
 
                 setProductos(productosDB)
             })

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Detail = ({ producto }) => {
 
     const { cart, AddToCart, isInCart } = useContext(CartContext)
-    console.log(cart)
+    // console.log(cart)
 
     const [cantidad, setCantidad] = useState(1)
 
