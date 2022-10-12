@@ -73,8 +73,8 @@ _This project was built with:_
 ## Special thanks ❤️
 
 * To my _**classmates**_, who were a great support throughout this project.
-* To my tutor _**Lucia Sheridan**_, who with patience and dedication, always gave me help, guidance and motivation to move forward.
-* To my teacher, _**Conrado Lanusse**_, from whom I take not only the knowledge transmitted but also a work ethic and good practices, laughter and good memories of the classes.
+* To my tutor [_**Lucia Sheridan**_](https://www.linkedin.com/in/lucia-sheridan/), who with patience and dedication, always gave me help, guidance and motivation to move forward.
+* To my teacher, [_**Conrado Lanusse**_](https://www.linkedin.com/in/conradolanusse/), from whom I take not only the knowledge transmitted but also a work ethic and good practices, laughter and good memories of the classes.
 * To my great friend [_**Mario Linares**_](https://github.com/mariolinaresmk7), who encouraged me to start this path of development with me and is a very important source of support.
 
 
