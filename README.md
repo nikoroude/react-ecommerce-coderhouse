@@ -1,6 +1,6 @@
 # _*Tech Shop E-commerce*_ 🖥
 
-_This project is made in React as part of **CoderHouse's** React Js course._
+_This project is made in React as part of [**CoderHouse's**](https://www.coderhouse.com/online/reactjs) React Js course._
 
 
 ## About 📋
