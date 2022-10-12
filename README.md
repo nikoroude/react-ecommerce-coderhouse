@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# _*Tech Shop E-commerce*_ 🖥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_This project is made in React as part of **CoderHouse's** React Js course._
 
-## Available Scripts
 
-In the project directory, you can run:
+## About 📋
 
-### `npm start`
+_This project consists of an electronic commerce application._
+_In order to use it, the user must log in or create a new account._
+_Once inside the app, the user can browse the different categories, selecting products to see their information in detail. You can add the products you want to the shopping cart, always depending on their stock._
+_Within the cart, the user will be able to review their purchase before generating an order. This order has a unique and unrepeatable ID, which will be delivered to the user once they confirm their purchase and enter their shipping and email information._
+_Both the product stock, the shopping cart and the purchase order ID are linked and stored in a **Firebase** project._
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deploy 🚀
 
-### `npm test`
+_You can enter [HERE!](https://ecommerce-react-coderhouse-nroude.netlify.app/) to see the project **deploy** in Netlify.App_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Install 🔧
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_To clone this repository you must enter the following command in the console_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone https://github.com/nikoroude/react-ecommerce-coderhouse.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Users 🕴
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+_To use the app, you can use the following username and password_
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+username: jhondoe
+password: 0000
+```
+_or_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+username: janedoe
+password: 1111
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Run with `npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Runs the app in the development mode._
+_Open [http://localhost:3000](http://localhost:3000) to view it in your browser._
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+_The page will reload when you make changes._
+_You may also see any lint errors in the console._
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## GIF 🚀
 
-### Analyzing the Bundle Size
+![](https://github.com/nikoroude/react-ecommerce-coderhouse/blob/main/GIF/prueba-proyecto-react-coderhouse.gif)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Built with 🛠️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+_This project was built with:_
 
-### Advanced Configuration
+* [React](https://reactjs.org/)
+* [Firebase](https://firebase.google.com/)
+* [Sweet Alert 2](https://sweetalert2.github.io/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Author ✒️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* **Carlos Nicolás Roude** - [github.nikoroude](https://github.com/nikoroude)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Special thanks ❤️
+
+* To my _**classmates**_, who were a great support throughout this project.
+* To my tutor _**Lucia Sheridan**_, who with patience and dedication, always gave me help, guidance and motivation to move forward.
+* To my teacher, _**Conrado Lanusse**_, from whom I take not only the knowledge transmitted but also a work ethic and good practices, laughter and good memories of the classes.
+* To my great friend [_**Mario Linares**_](https://github.com/mariolinaresmk7), who encouraged me to start this path of development with me and is a very important source of support.
+
+
+## Expressions of Gratitude 🎁
+
+* _Comment and share with others about this project 📢._
+* _Invite a beer 🍺 or a coffee ☕ to the author._
+* _Give thanks publicly 🤓._
+
+
+---
+⌨️ whit ❤️ by [Nicolás Roude](https://github.com/nikoroude) 😊

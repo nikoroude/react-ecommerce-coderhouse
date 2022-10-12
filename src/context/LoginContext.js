@@ -22,6 +22,10 @@ export const LoginProvider = ({children}) => {
             username: 'jhondoe',
             password: '0000'
         },
+        {
+            username: 'janedoe',
+            password: '1111'
+        },
 
     ]
 
