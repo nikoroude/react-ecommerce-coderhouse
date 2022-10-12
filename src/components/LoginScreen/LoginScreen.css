@@ -1,0 +1,93 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.loginContainer input {
+  border: #6ca0ff 2px solid;
+  border-radius: 8px;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+
+/*? Log In */
+.buttonSubmit {
+  background-image: linear-gradient(45deg, #2f78ff 0%, #19d0f0 51%, #2fb6ff 100%);
+
+}
+
+.buttonSubmit {
+  margin: 1px;
+  font-size: 1rem;
+  width: 9rem;
+  height: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  border: 0px;
+  font-weight: 100;
+  box-shadow: 0px 0px 14px -7px #19c9f0;
+}
+
+.buttonSubmit:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttonSubmit:active {
+  transform: scale(0.95);
+}
+
+/*! LogOut */
+
+.buttonLogOut {
+  background-image: linear-gradient(45deg, #e3432e 0%, #ee5025 51%, #ee980d 100%);
+
+}
+
+.buttonLogOut {
+  margin: 0.5rem;
+  font-size: 1rem;
+  width: 9rem;
+  height: 2rem;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  border: 0px;
+  font-weight: 100;
+  box-shadow: 0px 0px 14px -7px #f06b19;
+}
+
+.buttonLogOut:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttonLogOut:active {
+  transform: scale(0.95);
+}

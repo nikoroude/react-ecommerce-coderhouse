@@ -17,7 +17,7 @@ export const stock = [
         stock: 15,
         desc: 'El SmartWatch NT14 tiene una pantalla de 1,75" y resistente al agua. Sincronizado con tu celular, vas a poder recibir notificaciones de mensajes, controlar la cámara y la música de tu Smartphone.',
     },
-    {
+    {//todo
         id: 3,
         category: 'smartwatch',
         nombre: 'Smartwatch Nictom NT16',
@@ -26,7 +26,7 @@ export const stock = [
         stock: 3,
         desc: 'El SmartWatch NT16 cuenta con aplicación de modo deportivo para correr, caminar, ciclismo, escalada, yoga, saltar a la cuerda, sentadillas. Además, tiene funciones de salud de frecuencia cardíaca, monitorización de sueño, podómetro, oxígeno en sangre y presión arterial.',
     },
-    {
+    {//todo
         id: 4,
         category: 'smartwatch',
         nombre: 'Smartwatch Nictom KW37',
@@ -62,7 +62,7 @@ export const stock = [
         stock: 20,
         desc: 'Disfrutá de todas las cualidades que el monitor AOpen 27HC5R X tiene para ofrecerte. Percibí las imágenes de una manera completamente diferente y complementá cualquier espacio ya sea en tu casa u oficina. Con tu pantalla LED no solo ahorrás energía, ya que su consumo es bajo, sino que vas a ver colores nítidos y definidos en tus películas o series favoritas. Este monitor de 27" te va a resultar cómodo para estudiar, trabajar o ver una película en tus tiempos de ocio. Asimismo, su resolución de 1920 x 1080 te permite disfrutar de momentos únicos gracias a una imagen de alta fidelidad. Una de sus virtudes es que posee pantalla antirreflejo, de esta manera no verás reflejado lo que está detrás de vos y vas a evitar forzar tu vista para enfocar el contenido.',
     },
-    {
+    {//todo
         id: 8,
         category: 'informatica',
         nombre: 'Monitor Gigabyte G27F',
@@ -71,7 +71,7 @@ export const stock = [
         stock: 10,
         desc: 'Como jugador invisible, a menudo se subestima al monitor. La verdad es que los monitores se forman como un efecto sinérgico y ofrecen el mejor rendimiento de los componentes de la PC. Los monitores para juegos de GIGABYTE ofrecen las mejores especificaciones y calidad, los usuarios pueden realmente disfrutar de un rendimiento de primer nivel sin necesidad de extravagancias.',
     },
-    {
+    {//todo
         id: 9,
         category: 'informatica',
         nombre: 'NOTEBOOK LENOVO 82H802JKAR',
@@ -89,7 +89,7 @@ export const stock = [
         stock: 200,
         desc: 'Mediante sus entradas HDMI podés conectar reproductores de audio y video; consolas de juegos y notebooks. Su gran capacidad de transmisión de datos permite disfrutar de imágenes en alta definición y un sonido de gran fidelidad. También, a través de sus puertos USB podrás reproducir contenido digital (música, imágenes y videos) almacenado en dispositivos externos como tablets, smartphones y pendrives. Este Smart TV LG cuenta con la plataforma webOS exclusiva de LG, la cual es muy intuitiva, de fácil navegación y acceso a tu contenido preferido. Disfrutá de las app preinstaladas como Netflix y Youtube, entre otras. Gracias a que posee WI-FI incorporado, podrás acceder a internet de forma inalámbrica, navegar y ejecutar tus aplicaciones favoritas. Viví imágenes 4K más reales, con finos detalles y colores más vivos, a través de las pantallas LG que ofrecen cuatro veces más resolución que los Fulll HD desde donde quiera que te sientes, mostrando una precisión de casi el 100% del color, incluso desde un ángulo de 60 grados. El HDR activo 4K optimiza cada escena para proporcionar detalles delicados y mejores colores.',
     },
-    {
+    {//todo
         id: 11,
         category: 'informatica',
         nombre: 'IMPRESORA HP INK TANK 415',
@@ -98,7 +98,7 @@ export const stock = [
         stock: 30,
         desc: 'Con la impresora multifunción HP Ink Tank 415 vas a poder imprimir, escanear y copiar, documentos y fotos en forma rápida con colores vibrantes y textos nítidos. Además vas a poder ahorrar espacio, gracias a su diseño ultra compacto que encaja prácticamente en cualquier espacio. Como tecnología de impresión utiliza la inyección térmica de tinta. Tiene una resolución máxima de hasta 4800 x 1200 dpi para una calidad de impresión insuperable en proyectos y fotos. Y la velocidad de impresión en negro es hasta 20 ppm mientras que en color es hasta 16 ppm (ambas en modo Borrador). La Ink Tank 415 utiliza botellas de tinta, por lo que sólo tendrás que cambiar el color que necesites. Este modelo trae una botella de tinta negra GT51XL que rinde hasta 6.000 páginas. La impresora multifunción HP Ink Tank 415 ofrece conectividad Wi-Fi, podrás conectarte a una red inalámbrica y mandar a imprimir desde dispositivos móviles, como smartphones o tablets. También, cuenta con conectividad cableada mediante la interfaz USB 2.0 de alta velocidad.',
     },
-    {
+    {//todo
         id: 12,
         category: 'informatica',
         nombre: 'PC ViewSonic VPC501',
@@ -107,7 +107,7 @@ export const stock = [
         stock: 20,
         desc: 'PC Gamer. Procesador Intel Core i3-10100F (3.6 hasta 4.3 GHz). RAM 8Gb DDR4/ SSD 240Gb. AMD Radeon RX550 4Gb/ Gabinete modelo G510 con fuente 500W 80Plus Bronze. Windows 11 home.',
     },
-    {
+    {//todo
         id: 13,
         category: 'informatica',
         nombre: 'MacBook Pro Air 13',

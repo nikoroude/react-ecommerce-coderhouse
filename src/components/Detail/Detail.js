@@ -1,6 +1,5 @@
 import './Detail.css'
 import Contador from '../Contador/Contador'
-// import AddToCart from '../AddToCart/AddToCart';
 import { useContext, useState } from "react"
 import { CartContext } from '../../context/CartContext'
 import { Link } from 'react-router-dom';
@@ -9,7 +8,6 @@ import { Link } from 'react-router-dom';
 const Detail = ({ producto }) => {
 
     const { cart, AddToCart, isInCart } = useContext(CartContext)
-    // console.log(cart)
 
     const [cantidad, setCantidad] = useState(1)
 
@@ -36,7 +34,7 @@ const Detail = ({ producto }) => {
                     
                     {
                         isInCart(producto.id)
-                        ?<Link to={'/Cart'} className="button__add">IR AL CARRITO</Link>
+                        ?<Link to={'/Cart'} className="button__GoToCart">IR AL CARRITO</Link>
                         :<Contador
                         max={producto.stock}
                         counter={cantidad}
@@ -49,12 +47,13 @@ const Detail = ({ producto }) => {
                 </div>
 
                 <div className="descriptionProductDetail">
+
                     <h1>{producto.nombre}</h1>
                     <h2>${producto.precio}</h2>
                     <span className="descriptionTitleDetail">Descripción:</span>
                     <p className='descriptionDetail'>{producto.desc}</p>
                     <p />
-                    {/* <AddToCart item={producto} /> */}
+                    
                 </div>
             </div>
 

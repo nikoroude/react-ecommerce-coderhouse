@@ -1,5 +1,4 @@
 import './ItemListContainer.css'
-// import { pedirDatos } from '../../helpers/pedirDatos'
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ItemList from '../ItemList/ItemList';
@@ -29,8 +28,7 @@ const ItemListContainer = () => {
         getDocs(q)
             .then((resp) => {
                 const productosDB = resp.docs.map( (doc) => ({id: doc.id , ...doc.data()}) ) //! creo un nuevo objeto, que incorpore el id dentro de los datos del mismo
-                // console.log(productosDB)
-
+                
                 setProductos(productosDB)
             })
             .finally( () => {
@@ -38,21 +36,6 @@ const ItemListContainer = () => {
             })
 
     }, [categoryId])
-
-    // pedirDatos()
-    //     .then( (res) => {
-    //         if (!categoryId) {
-    //             setProductos(res)
-    //         } else {
-    //             setProductos( res.filter((prod) => prod.category === categoryId) )
-    //         }
-    //     })
-    //     .catch((error) => {
-    //         console.log(error)
-    //     })
-    //     .finally(() => {
-    //        setLoading(false)
-    //     })
 
     return (
         

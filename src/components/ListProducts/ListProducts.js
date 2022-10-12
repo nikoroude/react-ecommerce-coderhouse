@@ -8,15 +8,17 @@ const ListProducts = () => {
 
     const {categoryId} = useParams()
 
-    if (!{categoryId}){
-        categoryId='OFERTAS IMPERDIBLES'
-    }
-
     return (
 
         <div id='contenedorPadre'>
             <div>
-                <h1 className='containerList__title'>{categoryId}</h1>                
+                
+                {
+                    categoryId 
+                    ? <h1 className='containerList__title'>{categoryId}</h1>  
+                    : <h1 className='containerList__title'>BIENVENIDO</h1>  
+                }
+                
             </div>
         
             <div className="containerList">

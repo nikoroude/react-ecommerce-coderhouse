@@ -1,5 +1,10 @@
 @import url("@fontsource/roboto");
 
+.no-stock{
+  color: crimson;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
 
 .Contador__container {
   text-align: center;
@@ -9,10 +14,6 @@
   display: flex;
   flex-direction: row;
   
-}
-
-.button__add {
-  text-decoration: none;
 }
 
 .button__agregar {
@@ -58,41 +59,6 @@
   box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
 
-.button__agregar {
-  background-image: linear-gradient(45deg, #2f78ff 0%, #19d0f0 51%, #2fb6ff 100%);
-
-}
-
-.button__agregar {
-  margin: 1px;
-  padding-top: 12px;
-  width: 9rem;
-  height: 3rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  border-radius: 5px;
-  display: block;
-  border: 0px;
-  font-weight: 100;
-  box-shadow: 0px 0px 14px -7px #19c9f0;
-}
-
-.button__agregar:hover {
-  background-position: right center;
-  /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
-}
-
-.button__agregar:active {
-  transform: scale(0.95);
-}
-
-
 .button__finalizar {
   margin-left: 1rem !important;
   background-image: linear-gradient(45deg, #2f78ff 0%, #19d0f0 51%, #2fb6ff 100%);
@@ -128,3 +94,38 @@
 .button__finalizar:active {
   transform: scale(0.95);
 }
+
+/* ! Button agregar al carrito */
+
+.button__add {
+  margin-top: 2rem !important;
+  background-image: linear-gradient(45deg, #329d2e 0%, #1ead11  51%, #28ce19  100%)
+ }
+ 
+ .button__add {
+  margin: 1px;
+  padding-top: 12px;
+  width: 12rem;
+  height: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 5px;
+  display: block;
+  border: 0px;
+  font-weight: 100;
+  box-shadow: 0px 0px 14px -7px #40f019;
+ }
+ 
+ .button__add:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+ }
+ 
+ .button__add:active {
+  transform: scale(0.95);
+ }

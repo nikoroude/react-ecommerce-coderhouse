@@ -1,5 +1,4 @@
 import './AddToCart.css'
-// import { useState } from "react"
 
 
 const AddToCart = (item) => {

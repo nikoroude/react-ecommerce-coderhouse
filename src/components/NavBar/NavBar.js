@@ -1,17 +1,18 @@
 import './NavBar.css';
 import shop from '../../assets/img/TechShop.jpeg';
-import profile from '../../assets/img/icon-profile.png';
 import CartWidget from '../CartWidget/CartWidget';
 import { Link } from 'react-router-dom';
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
-
-
+import { LoginContext } from '../../context/LoginContext';
+import { BiLogOut } from 'react-icons/bi';
+import { CgProfile } from "react-icons/cg";
 
 
 const NavBar = (props) => {
 
-    const { cart } = useContext(CartContext)
+    const {user, logout} = useContext(LoginContext);
+    const { cart } = useContext(CartContext);
 
     return (
 
@@ -27,11 +28,17 @@ const NavBar = (props) => {
                     <Link to='/Productos/celulares' className="navbar__item">CELULARES</Link>
                     <Link to='/' className="navbar__item hotsale">VER TODOS</Link>
                     <div className="navbar__icon">
-                        <Link to='#' className={(cart.length === 0) ? "d-none" : "icon"}><CartWidget /></Link>
-                        <Link to='#' className="icon"><img className='iconProfile' src={profile} alt="Mi perfil" /></Link>
+                        <Link to='/Cart' className={(cart.length === 0) ? "d-none" : "icon"}><CartWidget /></Link>
+
+                        {
+                            user.logged
+                                ? <Link to='/Login' className="icon"><BiLogOut onClick={logout} className='iconLogOut' alt="Salir"/></Link>
+                                : <Link to='/Login' className="icon"><CgProfile className='iconProfile' /></Link>
+                        }
                     </div>
                 </nav>
             </header>
+            { user.logged && <div className='welcome'><small>Bienvenido: </small><b>{user.user}</b></div> }
         </div>
 
     );

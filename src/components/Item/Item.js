@@ -1,7 +1,6 @@
 import './Item.css'
-import Contador from '../Contador/Contador'
 import VerMas from '../VerMas/VerMas';
-import { Link } from 'react-router-dom';
+
 
 const Item = ({ producto }) => {
 
@@ -19,9 +18,6 @@ const Item = ({ producto }) => {
                 </div>
             </div>
 
-            {/* <div className='btn__container'>
-                
-            </div> */}
         </div>
     )
     

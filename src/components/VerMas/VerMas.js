@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import './VerMas.css'
-// import { useState } from "react"
 
 
 const VerMas = ({itemId}) => {

@@ -1,9 +1,4 @@
 import './Contador.css'
-// import { Link } from 'react-router-dom';
-
-// import { useState } from "react"
-import AddToCart from '../AddToCart/AddToCart'
-
 
 const Contador = ({max, counter, setCounter, handleAgregar}) => {
 
@@ -26,12 +21,17 @@ const Contador = ({max, counter, setCounter, handleAgregar}) => {
 
         <div className="Contador__container">
 
-            <button onClick={handleRestar} className="button">-</button>
-            <span className='contador'>{counter}</span>
-            <button onClick={handleSumar} className="button">+</button>
+            <button onClick={handleRestar} className={(max < 1) ? "d-none" : "button"}>-</button>
+            <span className={(max < 1) ? "d-none" : "contador"}>{counter}</span>
+            <button onClick={handleSumar} className={(max < 1) ? "d-none" : "button"}>+</button>
 
             <div className="add__container">
-                <span onClick={handleAgregar} className="button__agregar">AGREGAR AL CARRITO</span>
+                { 
+                    max > 0
+                    ? <span onClick={handleAgregar} className="button__add">AGREGAR AL CARRITO</span>
+                    : <p className='no-stock'>No hay stock de este producto</p>
+                }
+                
                 
             </div>
 
